@@ -1,0 +1,5 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+.container-max { max-width: 1120px; }
+:focus-visible { outline: 3px solid rgba(47,174,129,0.45); outline-offset: 3px; }
