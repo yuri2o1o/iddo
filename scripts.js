@@ -27,7 +27,7 @@ mobileMenu.querySelectorAll("a[href^='#']").forEach(a => {
   let idx = 0;
 
   // Config
-  const AUTOPLAY_MS = 5000; // autoplay interval (ms). Set to 0 to disable.
+  const AUTOPLAY_MS = 10000; // autoplay interval (ms). Set to 0 to disable.
   const MIN_SWIPE_PX = 50;  // minimum px considered a swipe
   let autoplayTimer = null;
 
